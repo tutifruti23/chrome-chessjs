@@ -1,0 +1,13 @@
+{
+    "name": "focus-chess.com",
+    "version": "1.0",
+    "description": "Chess.com focus mode!",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["style.css"]
+        }
+    ],
+    "manifest_version": 2
+  }
